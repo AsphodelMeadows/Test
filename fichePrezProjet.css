@@ -1,0 +1,102 @@
+.FicheProjetTSP {
+  box-sizing: content-box;
+  width: 550px;
+  height: auto;
+  background-color: #F0DCC8; 
+  margin: auto;
+  line-height: 1;
+}
+    
+.titre { 
+  height: 43px;
+  border-bottom: 2px solid #A57887;
+  color: black;
+  text-align: center;
+  font-size: 35px;
+  font-family: 'Abril Fatface', cursive;
+  font-weight: bold;
+  padding-top: 7px;
+}
+    
+.citation {
+  font-size: 15px;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  color: #5A876E;
+  text-align: center;
+  margin-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  line-height: 1;
+}
+
+
+.imgTSP img {
+  width: 75px;
+  height: 75px;
+  margin: 20px;
+  border-radius: 100px;
+  opacity: .75;
+  border-bottom: 3px solid #5A876E;
+   transition:all .65s linear; 
+  -webkit-transition:all 1s linear;
+}
+
+.imgPKN:hover img {
+  opacity: 1;
+  border-bottom: 3px solid #5A876E;
+}
+
+.titrePartie_droite {
+  font-size: 25px;
+  font-family: 'Work Sans', sans-serif;
+  color: black;
+  text-align: right;
+  padding-right: 10px;
+  text-decoration: underline overline #A57887;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.titrePartie_gauche {
+  font-size: 25px;
+  font-family: 'Work Sans', sans-serif;
+  color: black;
+  text-align: left;
+  padding-left: 10px;
+  text-decoration: underline overline #A57887;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.texte {
+  width: 90%;
+  margin: auto;
+  color: black;
+  padding: 15px;
+  border: 2px solid #A57887;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 16px;
+  text-align: justify;
+  white-space: pre-line;
+} 
+
+texte-droite {
+  display: inline-block;
+  float: right;
+}
+
+effets-texte {
+  color: #5A876E;
+  font-weight: bold;
+}
+
+text-indent {
+  display: inline-block;
+  text-indent: 1.5em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
